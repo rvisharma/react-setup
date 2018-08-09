@@ -1,6 +1,6 @@
 # Webpack Configuration for React
 
-## includes production level confifurations.
+## includes production level configurations.
 
 ### scripts
 
@@ -11,11 +11,11 @@ analyze:p - Bundle Analyzer for Production build
 analyze:d - Bundle Analyzer for Development build
 ```
 
+- [ ] Docker
 - [x] env modes setup
 - [x] Babel
   - [x] env preset
   - [x] Babel Dynamic Imports
-- [ ] Sass
 - [ ] Alias to ~
 - [ ] Prettier
   - [ ] Hook
@@ -24,7 +24,7 @@ analyze:d - Bundle Analyzer for Development build
 - [x] Ramda
   - [x] babel ramda plugin
 - [ ] Loaders
-  - [ ] SCSS
+  - [x] SCSS
   - [x] CSS
   - [x] File Loader (fonts and images)
   - [x] HTMLWebpackPlugin (auto index)
@@ -40,6 +40,6 @@ analyze:d - Bundle Analyzer for Development build
 - [x] MiniCSSExtract
 - [x] Webpack Merge
 - [ ] React
-  - [ ] react-hot-loader
+  - [ ] react-hot-loader (HMR)
   - [ ] Redux
   - [ ] Redux-saga

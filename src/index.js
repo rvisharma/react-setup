@@ -1,4 +1,5 @@
 import './style.css';
+import './style2.scss';
 import('./print2');
 
 import join from 'ramda/es/join';

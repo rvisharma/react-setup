@@ -4,9 +4,9 @@
   "description": "boilerplate for all things in react with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack --config webpack.prod.js",
-    "start": "NODE_ENV=development webpack-dev-server  --config webpack.dev.js"
+    "start": "NODE_ENV=development webpack-dev-server  --config webpack.dev.js",
+    "analyze": "NODE_ENV=production webpack --config webpack.prod.js --profile --json > stats.json && webpack-bundle-analyzer ./stats.json dist"
   },
   "keywords": [
     "react",

@@ -7,11 +7,11 @@
 ```
 start - starts dev server
 build - production build
-analyze:p - Bundle Analyzer for Production build
-analyze:d - Bundle Analyzer for Development build
+analyze - Bundle Analyzer for Production build
 ```
 
 - [ ] Docker
+- [ ] SSL Setup
 - [x] env modes setup
 - [x] Babel
   - [ ] babel-polyfill (check if really required?)
@@ -21,7 +21,7 @@ analyze:d - Bundle Analyzer for Development build
 - [ ] Prettier
   - [ ] Hook
   - [ ] config file
-- [ ] Webpack Jarvis (Bundle Analyzer UI)
+- [x] Bundle Analyzer (For Prod Builds)
 - [x] Ramda
   - [x] babel ramda plugin
 - [ ] Loaders

@@ -14,13 +14,14 @@ analyze:d - Bundle Analyzer for Development build
 - [ ] Docker
 - [x] env modes setup
 - [x] Babel
+  - [ ] babel-polyfill (check if really required?)
   - [x] env preset
   - [x] Babel Dynamic Imports
-- [ ] Alias to ~
+- [ ] Alias to src
 - [ ] Prettier
   - [ ] Hook
   - [ ] config file
-- [x] Bundle analyzer script
+- [ ] Webpack Jarvis (Bundle Analyzer UI)
 - [x] Ramda
   - [x] babel ramda plugin
 - [ ] Loaders
@@ -36,10 +37,11 @@ analyze:d - Bundle Analyzer for Development build
 - [x] Code Splitting
 - [x] Source Maps - eval-source-map (dev) && source-map (production)
 - [x] Webpack dev server
-- [x] HMR config
 - [x] MiniCSSExtract
 - [x] Webpack Merge
-- [ ] React
-  - [ ] react-hot-loader (HMR)
+- [ ] React/Redux/Saga/Router
+  - [x] basic React setup
+  - [x] Add body with #id to webpack html template
   - [ ] Redux
   - [ ] Redux-saga
+  - [ ] React Router

@@ -10,8 +10,7 @@ module.exports = merge(common, {
     filename: '[name].[hash].js'
   },
   devServer: {
-    contentBase: './dist',
-    hot: true
+    contentBase: './dist'
   },
   module: {
     rules: [
@@ -42,7 +41,5 @@ module.exports = merge(common, {
         ]
       }
     ]
-  },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
-  optimization: {}
+  }
 });

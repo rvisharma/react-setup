@@ -1,4 +1,12 @@
 {
-  "presets": ["env"],
-  "plugins": ["syntax-dynamic-import", ["ramda"]]
+  "presets": ["env", "react"],
+  "plugins": [
+    "syntax-dynamic-import",
+    [
+      "ramda",
+      {
+        "useES": true
+      }
+    ]
+  ]
 }

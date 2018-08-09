@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: ['babel-polyfill', './src/index.js']
+    app: ['./src/index.js']
   },
   output: {
     path: path.resolve(__dirname, 'dist')
@@ -20,14 +20,15 @@ module.exports = {
           name: 'viewport',
           content: 'width=device-width, initial-scale=1.0'
         }
-      ]
+      ],
+      bodyHtmlSnippet: '<div id="app"></div>'
     })
   ],
   module: {
     rules: [
       {
         // babel Loader
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,
         use: { loader: 'babel-loader' }
       },
@@ -45,7 +46,6 @@ module.exports = {
   },
   optimization: {
     namedChunks: true,
-    runtimeChunk: true,
     splitChunks: {
       chunks: 'all'
     }

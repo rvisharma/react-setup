@@ -1,5 +1,6 @@
 import React from 'react';
 import { join } from 'ramda';
+import PropTypes from 'prop-types';
 
 export default function App({ title }) {
   return (
@@ -10,3 +11,7 @@ export default function App({ title }) {
     </div>
   );
 }
+
+App.propTypes = {
+  title: PropTypes.string
+};

@@ -18,9 +18,12 @@ analyze - Bundle Analyzer for Production build
   - [x] env preset
   - [x] Babel Dynamic Imports
 - [ ] Alias to src
-- [ ] Prettier
-  - [ ] Hook
-  - [ ] config file
+- [ ] Linting and Formatting
+  - [x] ESLint
+  - [x] Eslint React plugin
+  - [ ] Prettier
+    - [ ] Hook
+    - [ ] config file
 - [x] Bundle Analyzer (For Prod Builds)
 - [x] Ramda
   - [x] babel ramda plugin

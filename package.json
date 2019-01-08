@@ -8,12 +8,7 @@
     "start": "NODE_ENV=development webpack-dev-server  --config webpack.dev.js",
     "analyze": "NODE_ENV=production webpack --config webpack.prod.js --profile --json > stats.json && webpack-bundle-analyzer ./stats.json dist"
   },
-  "keywords": [
-    "react",
-    "webpack",
-    "redux",
-    "boilerplate"
-  ],
+  "keywords": ["react", "webpack", "redux", "boilerplate"],
   "author": "Ravi Sharma",
   "license": "ISC",
   "devDependencies": {
@@ -37,14 +32,14 @@
     "webpack": "^4.16.5",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5",
+    "webpack-dev-server": ">=3.1.11",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "prop-types": "^15.6.2",
     "ramda": "^0.25.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
   }
 }
